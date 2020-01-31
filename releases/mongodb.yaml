@@ -17,7 +17,7 @@ spec:
     image:
       repository: bitnami/mongodb
       tag: 4.0.13
-    usePassword: false
+    usePassword: true
     persistence:
       enabled: false
     securityContext:
